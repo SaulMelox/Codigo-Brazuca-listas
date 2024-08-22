@@ -1,0 +1,8 @@
+#lista01 exercicio 09
+frase = input("Digite uma frase: ")
+
+letra = input("Digite a letra que deseja contar: ")
+
+contador = frase.count(letra)
+
+print("A letra ", letra, "aparece", contador , "vez(es) na frase.")
