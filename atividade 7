@@ -1,0 +1,12 @@
+#lista01 exercicio 07
+lista_compras = []
+
+while True:
+    item = input("Adicione os itens na sua cesta, para finalizar tecle '-1': ")
+    if item == "-1":
+        break
+    lista_compras.append(item)
+
+print("\nSua lista de compras:")
+for item in lista_compras:
+    print(" ", item)

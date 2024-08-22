@@ -1,0 +1,9 @@
+#lista01 exercicio 04
+temp = int(input("Olá, qual a temperatura do dia? "))
+
+if temp > 30:
+    print("O dia está quente hoje.")
+elif temp <= 15:
+    print("O dia está frio hoje.")
+else:
+    print("O dia está agradável hoje.")

@@ -1,0 +1,6 @@
+#lista01 exercicio 02
+
+filme = input("qual seu filme favorito: ")
+lanca = input("qual o ano do lançamento: ")
+
+print(filme, "é o seu filme favorito e foi lançado no ano de",lanca)
