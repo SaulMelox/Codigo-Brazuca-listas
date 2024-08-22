@@ -8,3 +8,4 @@ if total == 2:
     print("Seu número é primo!")
 else:
     print("Seu número não é primo!")
+    

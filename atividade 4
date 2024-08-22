@@ -7,3 +7,4 @@ elif temp <= 15:
     print("O dia está frio hoje.")
 else:
     print("O dia está agradável hoje.")
+    

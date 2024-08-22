@@ -3,3 +3,4 @@ nome = 'rafa'
 natal = 'teresina'
 
 print("me chamo", nome,"e nasci na cidade de", natal)
+

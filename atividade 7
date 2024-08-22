@@ -10,3 +10,4 @@ while True:
 print("\nSua lista de compras:")
 for item in lista_compras:
     print(" ", item)
+    
