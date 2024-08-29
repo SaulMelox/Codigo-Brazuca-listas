@@ -1,5 +1,0 @@
-#lista01 exercicio 05
-
-for numero in range(11):
-  if numero % 2 ==0:
-    print("Esses sao os numeros pares: ", numero )
