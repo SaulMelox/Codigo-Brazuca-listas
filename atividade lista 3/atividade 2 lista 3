@@ -1,0 +1,5 @@
+celcius = int(input("Digite a temperatura em celcius:"))
+Fahrenheit = ((celcius * 9/5) + 32)
+Kelvin = (celcius + 273.15)
+
+print("a temperatura em Fahrenheit ",Fahrenheit,"a temperatura em Kelvin", Kelvin)

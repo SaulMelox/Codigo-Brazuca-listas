@@ -1,0 +1,14 @@
+total = 0
+qntNotas = 0
+
+while True:
+  nota = int(input("digite sua nota, para finalizar digite -1"))
+  if nota == -1:
+    break
+  total += nota
+  qntNotas += 1
+if qntNotas > 0:
+  media = total/qntNotas
+  print("sua media é", media)
+else:
+  print ("nao foi inserido nota")

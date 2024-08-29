@@ -1,0 +1,6 @@
+altura = int(input("Digite sua altura: "))/100
+peso = int(input("digite seu peso:"))
+
+imc = peso/(altura*altura)
+
+print(f'{imc:,.2f}')

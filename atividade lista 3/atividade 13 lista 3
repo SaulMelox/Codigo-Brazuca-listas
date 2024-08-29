@@ -1,0 +1,13 @@
+soma = 0
+numero_atual = 1
+
+while True:
+    if numero_atual > 100:
+        break
+
+    if numero_atual % 2 == 0:
+        soma += numero_atual
+
+    numero_atual += 1
+
+print(f"A soma dos números pares é {soma}")

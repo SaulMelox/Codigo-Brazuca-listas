@@ -1,0 +1,9 @@
+palavra = input("Digite uma palavra: ")
+vogais = ["a", "e", "i", "o", "u"]
+contador = 0
+
+for letra in palavra:
+    for vogal in vogais:
+     if (letra == vogal):
+        contador += 1
+print("A quantidade de vogais é: ", contador)

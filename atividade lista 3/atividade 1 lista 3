@@ -1,0 +1,7 @@
+def funcaoFatorial():
+    resultado = 1
+    numeroFatorial = int(input("Escreva um número inteiro:"))
+    for i in range(1, numeroFatorial + 1):
+        resultado = i
+    print(resultado)
+    return resultado

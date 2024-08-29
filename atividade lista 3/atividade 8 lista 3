@@ -1,0 +1,17 @@
+qntd = int(input("Digite a quantidade de termos: "))
+resultado = 1
+aux = 1
+
+if(qntd == 1):
+    print(1)
+        
+if(qntd == 2):
+    print(1)
+    print(1)
+    print(1)
+    print(1)
+for i in range(qntd-2):
+    valor = resultado + aux
+    aux = resultado
+    resultado = valor
+    print(valor)
